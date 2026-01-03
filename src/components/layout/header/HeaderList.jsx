@@ -13,7 +13,7 @@ export const HeaderList = ({isMobile = false, className, onClick}) => {
           <li key={headerLink.title}>
             <Link
               to={headerLink.link}
-              className="list-none text-black tracking-[.8px]
+              className="tracking-[.8px]
               hover:text-blueSoft-300"
             >
               {headerLink.title}
@@ -24,7 +24,7 @@ export const HeaderList = ({isMobile = false, className, onClick}) => {
             <a
               href={headerLink.link}
               onClick={onClick}
-              className="list-none text-black tracking-[.8px]
+              className="tracking-[.8px]
               hover:text-blueSoft-300"
             >
               {headerLink.title}

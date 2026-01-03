@@ -6,20 +6,20 @@ const MobileMenuButton = ({open = false, close = false, onClick}) => {
     <button
       type="button"
       onClick={onClick}
-      className={clsx('border-none bg-transparent',
+      className={clsx('cursor-pointer',
         open && 'block m:hidden',
         close && 'absolute top-7 right-7')}
     >
       {open &&
         <Menu
           size={28}
-          className="text-black hover:text-blueSoft-300"
+          className="hover:text-blueSoft-300"
         />
       }
       {close &&
         <Close
           size={28}
-          className="text-black hover:text-accent-red"
+          className="hover:text-accent-red"
         />
       }
     </button>

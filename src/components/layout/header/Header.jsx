@@ -34,7 +34,7 @@ function Header() {
       {/* Desktop */}
       <HeaderList
         className="hidden m:flex justify-center items-center gap-8
-        font-serif list-none no-underline text-[18px]"
+        font-serif text-[18px]"
       />
 
       <MainButton
@@ -62,7 +62,7 @@ function Header() {
         <HeaderList
           isMobile
           onClick={openNav}
-          className="flex flex-col text-[24px] gap-6 text-center no-underline
+          className="flex flex-col text-[24px] gap-6 text-center
           font-bold"
         />
       </nav>
