@@ -1,16 +1,43 @@
-# React + Vite
+# React Vite 18 – Optimized
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔗 Basierend auf Originalcode
+Dieses Repository basiert auf dem Open-Source-Projekt [Health-Plus](https://github.com/Alkaison/Health-Plus) (MIT License).
 
-Currently, two official plugins are available:
+## Beschreibung
+Dieses Repository enthält eine **optimierte Version** der Landingpage mit **React 18** und **Vite**.  
+Die Anwendung wurde gezielt nach Prinzipien nachhaltiger Frontend-Entwicklung optimiert.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Zweck im Rahmen der Bachelorarbeit
+Diese Version zeigt, welchen Einfluss **manuelle Optimierungen in React 18** auf:
+- Energieverbrauch
+- CO₂-Emissionen
+- Ladezeiten
+haben.
 
-## React Compiler
+## Implementierte Optimierungen
+- Bildkompression (WebP)
+- Lazy Loading für Bilder
+- Reduzierte DOM-Struktur
+- Tailwind CSS
+- Code-Splitting
+- React Memoization (useMemo, useCallback, React.memo)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technischer Stack
+- React 18
+- Vite
+- Tailwind CSS
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Messergebnisse
+### Webcarbon
+![Webcarbon Ergebnis](/webcarbon.png)
+### Ecograder
+![Ecograder Ergebnis1](/ecograder1.png)
+![Ecograder Ergebnis2](/ecograder2.png)
+###DigitalBeacon
+![Digital Beacon Ergebnis1](/db1.png)
+![Digital Beacon Ergebnis2](/db2.png)
+### Chrome Dev Tools
+![Chrome Dev Tools HTML](/devhtml.png)
+![Chrome Dev Tools Styles](/devstyles.png)
+![Chrome Dev Tools Images](/devimages.png)
+![Chrome Dev Tools Scripts](/devscripts.png)
